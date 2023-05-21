@@ -13,10 +13,27 @@
             border-bottom-right-radius: 30px;
             margin-top: -22px;
             box-shadow: -11px -1px 32px 16px #9e97aa;
+            animation-name: anime2;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode:forwards;
 
 
 
         }
+
+        @keyframes anime2 {
+            from {
+                width: 980px;
+
+            }
+
+            to {
+                width: 1500px;
+            }
+        }
+        
+
 
         .nav ul {
             overflow: auto;
@@ -66,7 +83,7 @@
 
 
         body {
-            background-color: white;
+            background-color: rgb(0, 0, 0);
             background-repeat: repeat;
             background-size: contain;
         }
@@ -90,11 +107,10 @@
 
             background-position: bottom;
             background-size: cover;
-            /* box-shadow: 20px -7px 30px 0px #c8d0ee; */
+            box-shadow: 11px -4px 48px -2px #75d7d7;
             cursor: pointer;
             font-family: ui-rounded;
         }
-
 
 
 
@@ -112,9 +128,27 @@
             background-image: url(sale.jpg);
             background-position: center;
             background-size: cover;
-            box-shadow: 8px 8px 26px -4px #5c5c4d;
+            box-shadow: 8px 8px 26px -4px #a9e5ff;
             cursor: pointer;
             left: 135px;
+
+        }
+
+        .animation1 {
+            animation-name: anime1;
+            animation-duration: 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes anime1 {
+            from {
+                width: 50px;
+            }
+
+            to {
+                width: 250px;
+            }
         }
 
         .chat {
@@ -125,7 +159,7 @@
             border-radius: 30px;
             position: relative;
             top: 650px;
-            box-shadow: 0px 0px 41px 3px #b1903f;
+            box-shadow: 0px 0px 41px 3px #c6f3ff;
             position: fixed;
             right: 15px;
 
@@ -134,10 +168,17 @@
         }
 
         .chat:hover {
-            color: #b1903f;
+            color: #fff8e6;
             cursor: pointer;
+            background-color: rgb(218, 231, 80);
+        height: 70px;
+        width: 160px;
+        border-radius: 50px;
+        font-size: 20px;
+        transition-duration: 1s;
+       
         }
-
+     
         a {
             text-decoration: none;
         }
@@ -167,7 +208,7 @@
         </nav>
     </header>
     <a href="https://linuxhint.com/">
-        <button class="box"
+        <button class="box" 
             style="background-image: url(https://sneakerplug.co.in/cdn/shop/files/image_0d5f368f-7b71-40ff-b0d1-86ea2d48f58f_460x.jpg?v=1684214725);"><b>Nike
                 SB Dunk Low Jarritos <br> ₹39,999.00</b> </button>
     </a>
@@ -179,9 +220,10 @@
     <a href="https://linuxhint.com/"><button class="box"
             style=" background-image: url(https://sneakerplug.co.in/cdn/shop/files/image_a685c6f0-96b9-4d36-8062-7145411ae46e_460x.jpg?v=1683875028);"><b>Nike
                 SB Dunk Low Pro Fly S <br> ₹29,999.00</b></button></a>
-    <a href="https://linuxhint.com/"></a><button id="box4" style="background-image: url(sale.jpg);"></button></a>
+    <a href="https://linuxhint.com/"></a><button class="animation1" id="box4"
+        style="background-image: url(sale.jpg);"></button></a>
     <a href="https://linuxhint.com/"><button class="box"
-            style="background-image: url(https://sneakerplug.co.in/cdn/shop/files/desertore_460x.jpg?v=1683782071); "><b>Nike
+            style="background-image: url(https://sneakerplug.co.in/cdn/shop/files/image_16edf0f7-7b6a-4317-aa8d-4fa11deb9199_460x.jpg?v=1683876750); "><b>Nike
                 Air Max 90 OFF-WHITE Desert Ore
                 <br> ₹ 69,999.00</b></button></a>
     <a href="https://linuxhint.com/"><button class="box"
